@@ -24,5 +24,7 @@ cd "$GHOST"
 mv content content-old
 ln -s "$OVERRIDE/content" content
 
+# And a config.js
+ln -s "$OVERRIDE/config.js" config.js
 
 npm start
